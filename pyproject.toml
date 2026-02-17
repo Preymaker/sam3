@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sam3"
-version = "0.1.0"
+version = "0.1.1"
 description = "SAM3 (Segment Anything Model 3) implementation"
 readme = "README.md"
 requires-python = ">=3.10,<4.0"
@@ -25,6 +25,7 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 dependencies = [
+    "setuptools",
     "torch>=2.3.1",
     "torchvision>=0.18.1",
     "timm>=1.0.17",
