@@ -7,7 +7,7 @@ name = "sam3"
 version = "0.1.0"
 description = "SAM3 (Segment Anything Model 3) implementation"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<4.0"
 license = {file = "LICENSE"}
 authors = [
     {name = "Meta AI Research"}
