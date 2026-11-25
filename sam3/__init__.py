@@ -4,6 +4,6 @@
 
 from .model_builder import build_sam3_image_model
 
-__version__ = "0.1.4"
+__version__ = "0.1.6"
 
 __all__ = ["build_sam3_image_model"]
